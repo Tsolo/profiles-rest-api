@@ -3,7 +3,7 @@ from django.urls import path
 from profile_api import views
 
 
-urlpattern = [
-    path('hello-view', views.HelloApiView.as_view()),
+urlpatterns = [
+    path('hello-view/', views.HelloApiView.as_view()),
 
 ]
